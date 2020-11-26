@@ -12,6 +12,6 @@
 
 <nav class="navbar navbar-dark bg-dark">
     <div class="container">
-        <a href="../index.php" class="navbar-brand">Gestion de farmacia</a>
+        <a href="../index.php" class="navbar-brand">Gestion de farmacia - Home</a>
     </div>
 </nav>

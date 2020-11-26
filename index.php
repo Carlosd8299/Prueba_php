@@ -12,6 +12,7 @@ include("includes/header.php");
 <a href="view/laboratorio.php" class="btn btn-primary">Ir a laboratorio</a>
 <a href="view/ingreso.php" class="btn btn-primary">Ir a Ingresos</a>
 <a href="view/farmaco.php" class="btn btn-primary">Ir a Farmacos</a>
+<a href="view/listado.php" class="btn btn-primary">Ir a listado de no vencidos</a>
 </div>
 
 <?php

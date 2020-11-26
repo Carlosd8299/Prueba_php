@@ -79,7 +79,9 @@ while ($row = mysqli_fetch_assoc($result_tasks)) {
                 <td><?php echo $row['fecha_ingreso'];?></td>
                 <td><?php echo $row['fecha_vencimiento'];?></td> 
 
-               
+                <td><a href="../edit_ingreso.php?id=<?php echo $row['Id']; ?>" class="btn btn-secondary">
+                    <i class="fas fa-marker"></i></a>
+
                     <a href="../delete_ingreso.php?id=<?php echo $row['Id']; ?>" class="btn btn-danger">
                     <i class="far fa-trash-alt"></i></a>
 
